@@ -2,8 +2,6 @@
 """My first square"""
 
 
-
-
 class Square:
     """Empty square"""
     pass
