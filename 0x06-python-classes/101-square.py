@@ -50,22 +50,22 @@ class Square:
         "Not empty (size != 0)"
         for new_line in range(self.__position[1]):
             print("")
-            for row in range(self.__size):
-                for space in range(self.__position[0]):
-                    print(" ", end="")
-                for column in range(self.__size):
-                    print("#", end="")
-                print("")
+        for row in range(self.__size):
+            for space in range(self.__position[0]):
+                print(" ", end="")
+            for column in range(self.__size):
+                print("#", end="")
+            print("")
 
     def __str__(self):
         """Custom __str__ method to print a square"""
         for new_line in range(self.__position[1]):
             print("")
-            for row in range(self.__size):
-                for space in range(self.__position[0]):
-                    print(" ", end="")
-                for column in range(self.__size):
-                    print("#", end="")
-                if (row != self.__size - 1):
-                    print("")
+        for row in range(self.__size):
+            for space in range(self.__position[0]):
+                print(" ", end="")
+            for column in range(self.__size):
+                print("#", end="")
+            if (row != self.__size - 1):
+                print("")
         return ("")
