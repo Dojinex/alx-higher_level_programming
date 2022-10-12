@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 """Square with size"""
 
-
-
 class Square:
     """Representation of a square"""
+    
     def __init__(self, size=0, position=(0, 0)):
         """Instantiation with optional size and optional position"""
         self.size = size
@@ -50,7 +49,7 @@ class Square:
         "Not empty (size != 0)"
         for new_line in range(self.__position[1]):
             print("")
-            for row in range(self.__size):
+        for row in range(self.__size):
             for space in range(self.__position[0]):
                 print(" ", end="")
             for column in range(self.__size):
