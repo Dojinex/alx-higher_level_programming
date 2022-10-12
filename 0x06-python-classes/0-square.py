@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""Defines a square """
+"""My first square"""
+
 
 
 
 class Square:
-    """Does nothing"""
+    """Empty square"""
     pass
