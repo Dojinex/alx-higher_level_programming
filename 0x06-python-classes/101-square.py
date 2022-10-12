@@ -55,7 +55,7 @@ class Square:
                 print(" ", end="")
             for column in range(self.__size):
                 print("#", end="")
-        print("")
+            print("")
 
     def __str__(self):
         """Custom __str__ method to print a square"""
