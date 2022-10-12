@@ -4,6 +4,7 @@
 
 class Square:
     """Representation of a square"""
+
     def __init__(self, size=0, position=(0, 0)):
         """Instantiation with optional size and optional position"""
         self.size = size
@@ -40,7 +41,7 @@ class Square:
     def area(self):
         """Public instance method that returns the current square area"""
         return self.__size ** 2
-
+    
     def my_print(self):
         """Public instance method that prints the square with char #"""
         if self.__size == 0:
@@ -54,7 +55,7 @@ class Square:
                 print(" ", end="")
             for column in range(self.__size):
                 print("#", end="")
-            print("")
+        print("")
 
     def __str__(self):
         """Custom __str__ method to print a square"""
