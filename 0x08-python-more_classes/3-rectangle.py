@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Rectangle class """
 
+
 class Rectangle:
     """ class Rectangle that defines a rectangle """
     __height = None
