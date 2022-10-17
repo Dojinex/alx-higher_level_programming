@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Rectangle class """
 
+
 class Rectangle:
     """ class Rectangle that defines a rectangle """
     __height = None
@@ -44,7 +45,7 @@ class Rectangle:
 
     def __str__(self):
         result = ""
-        
+
         if self.height == 0 or self.width == 0:
             result += ''
         else:
