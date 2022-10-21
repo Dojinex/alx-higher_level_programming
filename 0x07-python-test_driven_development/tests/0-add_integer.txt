@@ -103,7 +103,7 @@ Case Overflow 2:
 
 Case NaN 1:
 
-    >>> add_integer(0, float('nan')
+    >>> add_integer(0, float('nan'))
     Traceback (most recent call last):
     	      ...
     ValueError: cannot convert float NaN to integer
@@ -111,5 +111,6 @@ Case NaN 1:
 Case NaN 2:
 
     >>> add_integer(float('nan'))
-    Traceback (most recent call last):    	      ...
+    Traceback (most recent call last):
+    	      ...
     ValueError: cannot convert float NaN to integer
