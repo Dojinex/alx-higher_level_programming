@@ -19,4 +19,4 @@ class Rectangle(BaseGeometry):
 
     def area(self):
         """computes the area of the retangle"""
-    return self.__width * self.height
+        return self.__width * self.height
