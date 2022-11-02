@@ -53,6 +53,7 @@ def height(self, value):
         raise TypeError("height must be an integer")
     if value <= 0:
         raise ValueError("height must be > 0")
+    
     self.__height = value
 
 @x.setter
@@ -62,6 +63,7 @@ def x(self, value):
         raise TypeError("x must be an integer")
     if value < 0:
         raise ValueError("x must be >= 0")
+    
     self.__x = value
 
 @y.setter
@@ -71,7 +73,8 @@ def y(self, value):
         raise TypeError("y must be an integer")
     if value < 0:
         raise ValueError("y must be >= 0"
-                self.__y = value
+    
+    self.__y = value
 
 def area(self):
     """Defines the area of the rectangle"""
