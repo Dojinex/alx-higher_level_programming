@@ -1,12 +1,10 @@
 #!/usr/bin/python3
 """displays all values in the states table of hbtn_0e_0_usa
-    where name matches matches an argument passed as a parameter
-    safe from MySQL injections"""
-
+where name matches matches an argument passed as a parameter
+safe from MySQL injections"""
 
 import MySQLdb
 from sys import argv
-
 
 if __name__ == "__main__":
     db = MySQLdb.connect(host="localhost", port=3306,
