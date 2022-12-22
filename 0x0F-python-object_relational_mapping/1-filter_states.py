@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-"""lists all states from the database 'hbtn_0e_0_usa'"""
+"""lists all states with a name starting with N (upper N)
+    from the database 'hbtn_0e_0_usa'"""
+
 
 import MySQLdb
 from sys import argv
+
 
 if __name__ == "__main__":
     db = MySQLdb.connect(host="localhost", port=3306,
@@ -10,6 +13,7 @@ if __name__ == "__main__":
     cursor = db.cursor()
     cursor.execute("SELECT * FROM states")
     for data in cursor.fetchall():
-        print(data)
+        if data[1][0] == 'N':
+            print(data)
     cursor.close()
     db.close()
