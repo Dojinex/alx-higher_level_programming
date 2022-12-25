@@ -22,6 +22,6 @@ if __name__ == "__main__":
         if i < lenght - 1:
             print(result[i][0], end=', ')
         else:
-        print(result[i][0])
+            print(result[i][0])
     cursor.close()
     db.close()
