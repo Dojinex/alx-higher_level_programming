@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 """sends a request to the URL
-   displays the body of the response (decoded in utf-8)"""
+displays the body of the response (decoded in utf-8)"""
 import urllib.error as error
 import urllib.request as request
 from sys import argv
-
 
 
 if __name__ == "__main__":
