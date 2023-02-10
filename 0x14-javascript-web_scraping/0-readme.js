@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 /* reads and prints the content of a file.
  *- the first argument is the file path.
  *- the content of the file is read in utf-8.
